@@ -1,7 +1,7 @@
 {
-  "name": "webpack-template",
+  "name": "weather-app",
   "version": "1.0.0",
-  "description": "A webpack template to kick-start projects",
+  "description": "Weather app",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{USERNAME}/{REPONAME}.git"
+    "url": "git+https://github.com/HamnaIshaq/weather-app.git"
   },
   "author": "Hamna Ishaq",
   "license": "ISC",
