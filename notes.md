@@ -1,15 +1,12 @@
-"@babel/core": "^7.21.3",
-"@babel/preset-env": "^7.20.2",
-"autoprefixer": "^10.4.14",
-"babel-loader": "^9.1.2",
-"css-loader": "^6.7.3",
-"gh-pages": "^5.0.0",
-"html-webpack-plugin": "^5.5.0",
-"postcss": "^8.4.21",
-"postcss-loader": "^7.1.0",
-"postcss-preset-env": "^8.2.0",
-"style-loader": "^3.3.2",
-"tailwindcss": "^3.3.0",
-"webpack": "^5.76.3",
-"webpack-cli": "^5.0.1",
-"webpack-dev-server": "^4.13.1"
+# weather app
+
+This app is build as part of The Odin Project curriculum.
+
+The specifications for the project are as follows:
+
+- allow user to search for a specific location
+  - for empty data entered, show an error using form validation API
+- show the weather for the location entered
+  - change the look of the page depending on the data
+    - change background color/ add some images that describe the weather
+- allow user to toggle data between °F or °C
