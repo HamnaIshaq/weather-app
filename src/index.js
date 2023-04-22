@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 import "./style.css";
 
 function component() {
@@ -7,6 +8,5 @@ function component() {
 
   return element;
 }
-
 const root = document.querySelector("#root");
 root.appendChild(component());
