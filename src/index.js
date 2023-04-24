@@ -1,12 +1,10 @@
 /* eslint linebreak-style: ["error", "windows"] */
+import { searchUI, formSubmit } from "./search";
+
 import "./style.css";
 
-function component() {
-  const element = document.createElement("div");
-
-  element.textContent = "Hello World";
-
-  return element;
+function getWeather() {
+  searchUI();
+  formSubmit();
 }
-const root = document.querySelector("#root");
-root.appendChild(component());
+getWeather();
